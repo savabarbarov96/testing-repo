@@ -48,7 +48,16 @@ describe('Contact Page presence ', function() {
     }
     await driver.findElement(By.name("your-message")).click()
   })
+
+  it('Verify search teams function is working', async function() {
+    await driver.get("https://strategyinrush.com/")
+    await driver.manage().window().setRect({ width: 1936, height: 1056 })
+    await driver.switchTo().frame(0)
+    await driver.executeScript("window.scrollTo(0,0)")
+    await driver.switchTo().defaultContent()
+    await driver.findElement(By.id("cookie_action_close_header")).click()
+    await driver.findElement(By.css(".elementor-animation-buzz .elementor-button-text")).click()
+    await driver.findElement(By.id("team_name")).click()
+    await driver.findElement(By.id("team_name")).sendKeys("Test")
+  })
 })
-
-
-

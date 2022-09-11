@@ -23,6 +23,8 @@ describe('Contact Page presence ', function() {
     await driver.quit();
   })
   it('Contact Page presence ', async function() {
+
+    // Verify all contact form elements are present
     await driver.get("https://strategyinrush.com/")
     await driver.manage().window().setRect({ width: 1936, height: 1056 })
     await driver.findElement(By.css("#menu-item-73869 > a")).click()
@@ -49,6 +51,7 @@ describe('Contact Page presence ', function() {
     await driver.findElement(By.name("your-message")).click()
   })
 
+  // Verify search team function is working
   it('Verify search teams function is working', async function() {
     await driver.get("https://strategyinrush.com/")
     await driver.manage().window().setRect({ width: 1936, height: 1056 })

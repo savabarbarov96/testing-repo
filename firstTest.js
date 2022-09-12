@@ -39,10 +39,10 @@ describe("First Test", function () {
       .build();
   });
 
-  // afterEach(async function () {
-  //   await driver.quit();
-  // });
-  // //lambdatest
+  afterEach(async function () {
+    await driver.quit();
+  });
+  //lambdatest
 
   it("First test", async function () {
     // Start the browser

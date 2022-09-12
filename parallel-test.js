@@ -31,9 +31,9 @@ describe("Contact Page presence ", function () {
       .build();
       done();
   });
-  // afterEach(async function () {g
-  //   await driver.quit();
-  // });
+  afterEach(async function () {
+    await driver.quit();
+  });
 
   const USERNAME = "savabarbarov96";
   //key

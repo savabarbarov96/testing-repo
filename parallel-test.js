@@ -58,6 +58,8 @@ describe('Contact Page presence ', function() {
     await driver.switchTo().frame(0)
     await driver.executeScript("window.scrollTo(0,0)")
     await driver.switchTo().defaultContent()
+    await driver.wait(until.elementLocated(By.id("cookie_action_close_header")), 1000)
+    await driver.findElement(By.id("cookie_action_close_header")).click()
     await driver.findElement(By.id("cookie_action_close_header")).click()
     await driver.findElement(By.css(".elementor-animation-buzz .elementor-button-text")).click()
     await driver.findElement(By.id("team_name")).click()

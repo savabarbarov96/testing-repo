@@ -63,6 +63,6 @@ describe('Contact Page presence ', function() {
     await driver.findElement(By.id("cookie_action_close_header")).click()
     await driver.findElement(By.css(".elementor-animation-buzz .elementor-button-text")).click()
     await driver.findElement(By.id("team_name")).click()
-    await driver.findElement(By.id("team_name")).sendKeys("Test")g
+    await driver.findElement(By.id("team_name")).sendKeys("Test")
   })
 })

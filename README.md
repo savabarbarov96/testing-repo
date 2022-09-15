@@ -1,22 +1,4 @@
 
-<a name="readme-top"></a>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">Automated tests using Selenium with JS</h3>
 
   <p align="center">
@@ -40,9 +22,10 @@ The tests were build with Selenium WebDriver and the code is JavaScript.
 
 Additional libraries that were used.
 
-* [![Mocha]][Next-url]
-* [![Mochawesome]][React-url]
-* [![Chai]][Vue-url]
+* JavaScript
+* Mocha
+* Mochawesome
+* Chai
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

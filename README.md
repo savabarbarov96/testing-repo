@@ -18,9 +18,9 @@ The tests were build with Selenium WebDriver and the code is JavaScript.
 Additional libraries that were used.
 
 - <b>JavaScript</b>
-- Mocha
-- Mochawesome
-- Chai
+- <b>Mocha</b>
+- <b>Mochawesome</b>
+- <b>Chai</b>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
